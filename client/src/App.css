@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@100&display=swap');
+
+body {
+  background-color: rgb(58, 58, 58) !important
+}
+
+.embed-responsive {
+  width: 90%;
+}
+
+#dropdown-basic::after {
+  display: none !important;
+}
+
+#dropdown-basic:hover {
+  cursor: pointer;
+}
+
+.textbar {
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button {
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.textbar {
+  background-color: #27292b !important;
+  border: none !important;
+  color: white !important;
+  margin-right: 5px;
+}
+
+.textbar::placeholder {
+  color: white !important;
+}
+
+
+.textbar:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.nav-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Modifica lo stile della barra di scorrimento per tutti gli elementi */
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #171717; 
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+  border-radius: 8px;
+}

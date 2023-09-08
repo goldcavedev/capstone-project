@@ -1,0 +1,40 @@
+.signin-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 80%;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signin-form label {
+  font-size: 18px;
+}
+
+.signin-form input[type="text"],
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.signin-form input[type="submit"] {
+  font-size: 18px;
+  padding: 10px 20px;
+}

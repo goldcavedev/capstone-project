@@ -1,0 +1,42 @@
+.comments {
+    margin: 20px;
+}
+
+.comment-item {
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+    margin-bottom: 3px;
+    border-radius: 8px;
+}
+
+.author {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.comment-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    word-break: break-all;
+}
+
+#dropdown-basic {
+    position: absolute;
+    bottom: 15px;
+}
+
+
+.comment-dropdown {
+    margin-left: 10px;
+}
+
+.new-comment {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}

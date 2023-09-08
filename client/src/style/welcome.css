@@ -1,0 +1,23 @@
+.welcome-page p {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: large;
+    font-weight: lighter !important;
+}
+
+.welcome-page h2 {
+    margin-top: 3vw;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: xx-large;
+    font-weight: bolder !important;
+}
+
+.carousel.item {
+    width: 100% !important;
+    height: 20px !important;
+    object-fit: contain !important;
+}
+
+.carousel-caption {
+    margin-left: 38%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,30 @@
+.sidebar {
+    position: fixed;
+    border-radius: 6px;
+    top: 155px;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    overflow-y: auto !important;
+    z-index: 20;
+    bottom: 0;
+    left: 75%;
+    right: 0;
+    max-height: calc(7 * 80px);
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .sidebar.collapsed {
+    transform: translateY(92%);
+  }
+  
+  .sidebar-title {
+    margin-left: 15px;
+  }
+  
+  .sidebar-collapse-button {
+    background: none !important;
+    border: none !important;
+    margin-right: 5px;
+  }

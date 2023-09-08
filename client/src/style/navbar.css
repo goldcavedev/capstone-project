@@ -1,0 +1,36 @@
+.nav-dropdown-title > .dropdown-toggle {
+  color: white !important;
+}
+
+.nav-dropdown-title .dropdown-menu {
+  left: -75px;
+  top: 30px;
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: rgb(235, 235, 235) !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(39, 39, 39);
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.profile-container img {
+  margin-right: 12px;
+  border-radius: 20px;
+}
+
+.button-container{
+  margin-right: 15px;
+}
+
+.button-container button{
+  margin-right: 10px;
+}

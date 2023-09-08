@@ -1,0 +1,70 @@
+.favorite-card {
+    background-color: black;
+}
+
+.favorite-card-body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.favorite-card-body img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    z-index: 2;
+    object-fit: cover;
+    border-radius: 10px;
+    float: inline-start;
+}
+
+.favorite-card-body span {
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.game-link {
+    text-decoration: none;
+    color: white;
+}
+
+.favorite-card-body:hover .favorite-game-scrolling-title {
+    display: inline-block;
+    animation: scroll-left 5s linear infinite;
+}
+
+.favorite-card-body .favorite-game-scrolling-title .favorite-game-title-container {
+    width: 200px;
+    overflow: hidden;
+}
+
+.scrolling-title-container {
+    overflow: hidden;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.custom-toggle {
+    z-index: 10;
+    background-color: transparent;
+    border: none;
+    position: absolute !important;
+    top: -100px;
+    bottom: 0;
+    left: 100;
+    right: 0;
+}
+
+.custom-toggle:hover{
+    background-color: transparent;
+}

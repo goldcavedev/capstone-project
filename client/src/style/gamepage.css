@@ -1,0 +1,10 @@
+.gamelist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.gamelist li {
+  margin: 20px 0;
+}
